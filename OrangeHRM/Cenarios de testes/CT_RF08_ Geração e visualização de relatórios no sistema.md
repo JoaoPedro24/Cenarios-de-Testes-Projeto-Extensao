@@ -20,7 +20,8 @@
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O relatório deve apresentar os dados corretos conforme os filtros aplicados. |
-
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/7cad46ef-12dd-4e09-8d57-3fa2f22bc958)|
 ---
 
 ### Caso de Teste 02: Gerar relatório sem selecionar filtros obrigatórios.
@@ -37,12 +38,15 @@
 | :---------------------------------------------------------------- |
 | **DADO** que o usuário acessa o menu \"Reports > Attendance Summary\" |
 | **E** não preenche os campos obrigatórios (como nome do funcionário) |
-| **QUANDO** clicar em \"View\"                                     |
+| **QUANDO** não preenche os campos obrigatórios (como nome do funcionário)                                     |
 | **ENTÃO** o sistema deve exibir uma mensagem de erro solicitando o preenchimento dos filtros |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O sistema deve bloquear a geração do relatório e exibir erro claro. |
+
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/5aae872b-ddbf-4dca-bc38-3fe975f80481)|
 
 ---
 
@@ -65,3 +69,5 @@
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O download do arquivo PDF deve ocorrer com os dados exibidos na tela. |
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/5aae872b-ddbf-4dca-bc38-3fe975f80481)|

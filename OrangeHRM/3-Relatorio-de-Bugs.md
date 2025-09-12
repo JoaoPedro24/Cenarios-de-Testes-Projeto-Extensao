@@ -230,3 +230,38 @@
 |                    **Evidência(s)**                     |
 | :-----------------------------------------------------: |
 | [Vídeo](https://jam.dev/c/e2ad5a4e-f82d-45dc-a73f-2eb01942e7b2)      |
+### 🐞 **Bug 07: Gerar relatório sem selecionar filtros obrigatórios**
+
+| **ID**     | **Descrição**                                                                                                                                                        |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BUG-002    | Ao filtrar sem os filtros obrigatórios, todos os registros são listados   |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Media          |            Media            |   Aberto   |
+
+| **Passo a passo para simular o bug**                              |
+| ----------------------------------------------------------------- |
+| 1. usuário acessa o menu \"Reports > Attendance Summary\"                 |
+| 2. não preenche os campos obrigatórios (como nome do funcionário)                   |
+| 3. não preenche os campos obrigatórios (como nome do funcionário)                |
+| 4. sistema deve exibe todos os registros |
+
+|                     **Comportamento Esperado**                      |                        **Comportamento Obtido**                        |
+| :-----------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| sistema deve exibir uma mensagem de erro solicitando o preenchimento dos filtros |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Windows 10.  |
+| Chrome 138.0.7204.158    |
+| OrangeHRM Demo           |
+
+| **Funcionalidade Afetada** |             **Caso de Teste Relacionado**              |
+| :------------------------: | :----------------------------------------------------: |
+| Geração e visualização de relatórios no sistema | CT_RF08_ Geração e visualização de relatórios no sistema |
+
+|                    **Evidência(s)**                     |
+| :-----------------------------------------------------: |
+| [Vídeo](https://jam.dev/c/5aae872b-ddbf-4dca-bc38-3fe975f80481)      |

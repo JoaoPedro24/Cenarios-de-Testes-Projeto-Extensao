@@ -21,6 +21,8 @@
 | :-------------------------------------------------------------- |
 | O nome, cargo e localização do colaborador devem ser exibidos corretamente. |
 
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/c6bf289a-46b8-4ca2-a462-1398b01577a4)|
 ---
 
 ### Caso de Teste 02: Buscar colaborador inexistente.
@@ -43,6 +45,8 @@
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O sistema deve exibir claramente que não há registros encontrados. |
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/a4278989-b1ae-4896-a1da-73cf98a3184e)|
 
 ---
 
@@ -66,3 +70,5 @@
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O filtro deve funcionar corretamente e retornar apenas resultados válidos. |
+| **CENÁRIO TESTADO E EVIDENCIADO**                               |
+| [Vídeo] (https://jam.dev/c/8fd1b6f0-4042-4661-8486-cc3556dd5ff0)|
